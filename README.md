@@ -224,6 +224,6 @@ BOTOL TELSERAHE
 <p>Instagram : @telserahee_telang</p>
 <p>Tiktok    : @telserahe_telang</p>  
 </section><footer>
-<p>© 2025 Telserahe - Telang Seger, Sereh & Jahe</p>
+<p>© 2026 Telserahe - Telang Seger, Sereh & Jahe</p>
 </footer></body>
 </html>
