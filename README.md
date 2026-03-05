@@ -199,14 +199,14 @@ BOTOL TELSERAHE
 <div class="product-img">250 ml</div>
 <h3>Telserahe 250ml</h3>
 <p>Ukuran praktis untuk aktivitas sehari‑hari.</p>
-<div class="price">Rp 10.000</div>
-<a class="btn" href="https://wa.me/628000000000">Pesan</a>
+<div class="price">Rp 6.000</div>
+<a class="btn" href="https://wa.me/6282182167104">Pesan</a>
 </div><div class="product-card">
 <div class="product-img">500 ml</div>
 <h3>Telserahe 500ml</h3>
 <p>Ukuran lebih besar untuk dinikmati bersama.</p>
-<div class="price">Rp 15.000</div>
-<a class="btn" href="https://wa.me/628000000000">Pesan</a>
+<div class="price">Rp 10.000</div>
+<a class="btn" href="https://wa.me/6282182167104">Pesan</a>
 </div></div></section><section class="section" id="testimoni"><h2>Testimoni Pelanggan</h2><div class="testimonial">
 ⭐️⭐️⭐️⭐️⭐️
 <p>"Minumannya segar banget, rasa jahenya pas dan aromanya wangi!"</p>
@@ -217,11 +217,11 @@ BOTOL TELSERAHE
 <h2>Segarkan Harimu dengan Telserahe</h2>
 <p>Minuman herbal alami yang sehat dan menyegarkan.</p>
 <br>
-<a class="btn" href="https://wa.me/628000000000">Pesan Sekarang</a>
+<a class="btn" href="https://wa.me/6282182167104">Pesan Sekarang</a>
 </section><section class="section" id="kontak">
 <h2>Kontak Kami</h2>
-<p>WhatsApp : 08xxxxxxxxxx</p>
-<p>Instagram : @telserahe</p>
+<p>WhatsApp : 082182167104</p>
+<p>Instagram : @telserahee_telang</p>
 </section><footer>
 <p>© 2025 Telserahe - Telang Seger, Sereh & Jahe</p>
 </footer></body>
