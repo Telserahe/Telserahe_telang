@@ -222,6 +222,7 @@ BOTOL TELSERAHE
 <h2>Kontak Kami</h2>
 <p>WhatsApp : 082182167104</p>
 <p>Instagram : @telserahee_telang</p>
+<p>Tiktok    : @telserahe_telang</p>  
 </section><footer>
 <p>© 2025 Telserahe - Telang Seger, Sereh & Jahe</p>
 </footer></body>
