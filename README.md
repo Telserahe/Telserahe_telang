@@ -380,6 +380,15 @@ Pesan
 href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0A%0ASaya%20ingin%20memesan%20produk%3A%0A%0AProduk%20%3A%20Telserahe%20500ml%0AJumlah%20%3A%20...%20botol%0A%0ANama%20%3A%0AAlamat%20%3A%0A%0ATerima%20kasih.">
 Pesan
 </a>
+id="testimoni"><h2>Testimoni Pelanggan</h2><div class="testimonial">
+⭐️⭐️⭐️⭐️⭐️
+<p>"Minumannya segar banget, rasa jahenya pas dan aromanya wangi!"</p>
+</div><div class="testimonial">
+⭐️⭐️⭐️⭐️⭐️
+<p>"Unik! Warna telangnya cantik dan rasanya menyehatkan."</p>
+</div></section><section class="cta">
+<h2>Segarkan Harimu dengan Telserahe</h2>
+<p>Minuman herbal alami yang sehat dan menyegarkan.</p>
 <br>
 <a class="btn" href="https://wa.me/628000000000">Pesan Sekarang</a>
 </section><section class="section" id="kontak">
@@ -387,7 +396,6 @@ Pesan
 <p>WhatsApp : 08xxxxxxxxxx</p>
 <p>Instagram : @telserahe</p>
 </section><footer>
-</div>
 
 </div>
 
