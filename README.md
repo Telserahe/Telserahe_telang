@@ -16,30 +16,40 @@ margin:0;
 padding:0;
 }
 
+/* HILANGKAN JUDUL REPOSITORY GITHUB */
+
+h1:first-of-type{
+display:none;
+}
+
 body{
 font-family:'Poppins',sans-serif;
 background:#F6F1E7;
 color:#333;
 }
 
+/* CONTAINER AGAR TIDAK TERLALU LEBAR */
+
+.container{
+max-width:1100px;
+margin:auto;
+}
+
 /* HEADER */
 
 header{
 background:linear-gradient(135deg,#5E2A84,#7B3FB2);
-color:white;
-padding:15px 40px;
-display:flex;
-justify-content:space-between;
-align-items:center;
+padding:15px 20px;
 }
 
-.logo img{
-height:55px;
+nav{
+display:flex;
+justify-content:center;
+gap:25px;
 }
 
 nav a{
 color:white;
-margin-left:25px;
 text-decoration:none;
 font-weight:500;
 }
@@ -47,77 +57,57 @@ font-weight:500;
 /* HERO */
 
 .hero{
-min-height:80vh;
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:60px 10%;
+gap:40px;
+padding:70px 20px;
 background:linear-gradient(120deg,#F6F1E7,#EFE3FF);
 }
 
 .hero-text{
-max-width:500px;
-position:relative;
-}
-
-/* LOGO BACKGROUND */
-
-.hero-text::before{
-content:"";
-position:absolute;
-top:-80px;
-left:-80px;
-width:400px;
-height:400px;
-background:url('logo.png') no-repeat center;
-background-size:contain;
-opacity:0.08;
-z-index:0;
+max-width:450px;
 }
 
 .hero-text h1{
-font-size:48px;
+font-size:40px;
 color:#5E2A84;
-margin-bottom:20px;
-position:relative;
-z-index:1;
+margin-bottom:15px;
 }
 
 .hero-text p{
-font-size:18px;
+font-size:17px;
 margin-bottom:30px;
 line-height:1.6;
-position:relative;
-z-index:1;
 }
 
 .btn{
 background:#C9A25D;
 color:white;
-padding:14px 30px;
+padding:13px 28px;
 border-radius:30px;
 text-decoration:none;
 font-weight:600;
-display:inline-block;
-position:relative;
-z-index:1;
 }
 
+/* GAMBAR PRODUK */
+
 .hero-img img{
-width:350px;
+width:280px;
+mix-blend-mode:multiply; /* supaya transparan menyatu */
 }
 
 /* SECTION */
 
 .section{
-padding:80px 10%;
+padding:70px 20px;
 text-align:center;
 }
 
 .section h2{
-font-size:32px;
+font-size:28px;
 color:#5E2A84;
-margin-bottom:40px;
+margin-bottom:35px;
 }
 
 /* FEATURES */
@@ -125,55 +115,50 @@ margin-bottom:40px;
 .features{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:30px;
+gap:25px;
 }
 
 .feature{
 background:white;
-padding:25px;
+padding:22px;
 border-radius:12px;
-box-shadow:0 6px 20px rgba(0,0,0,0.08);
+box-shadow:0 5px 18px rgba(0,0,0,0.08);
 }
 
 /* PRODUCTS */
 
 .products{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:40px;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:30px;
 }
 
 .product-card{
 background:white;
-padding:30px;
+padding:25px;
 border-radius:15px;
-box-shadow:0 10px 25px rgba(0,0,0,0.08);
-transition:0.3s;
-}
-
-.product-card:hover{
-transform:translateY(-8px);
+box-shadow:0 8px 22px rgba(0,0,0,0.08);
 }
 
 .product-img img{
-width:200px;
-margin-bottom:15px;
+width:170px;
+mix-blend-mode:multiply;
 }
 
 .price{
 font-size:20px;
 font-weight:600;
-margin:10px 0 20px 0;
+margin:10px 0 18px;
 }
 
 /* TESTIMONI */
 
 .testimonial{
 background:white;
-padding:30px;
-border-radius:15px;
-box-shadow:0 8px 20px rgba(0,0,0,0.08);
-margin-top:20px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 6px 20px rgba(0,0,0,0.08);
+margin-top:15px;
 }
 
 /* CTA */
@@ -181,7 +166,7 @@ margin-top:20px;
 .cta{
 background:linear-gradient(135deg,#5E2A84,#7B3FB2);
 color:white;
-padding:80px 20px;
+padding:70px 20px;
 text-align:center;
 }
 
@@ -190,7 +175,7 @@ text-align:center;
 footer{
 background:#3E1A5C;
 color:white;
-padding:30px;
+padding:25px;
 text-align:center;
 }
 
@@ -198,19 +183,19 @@ text-align:center;
 
 .wa-float{
 position:fixed;
-bottom:25px;
-right:25px;
+bottom:20px;
+right:20px;
 background:#25D366;
-color:white;
-font-size:28px;
-width:60px;
-height:60px;
+width:55px;
+height:55px;
 border-radius:50%;
 display:flex;
 align-items:center;
 justify-content:center;
+font-size:26px;
+color:white;
 text-decoration:none;
-box-shadow:0 5px 15px rgba(0,0,0,0.2);
+box-shadow:0 5px 15px rgba(0,0,0,0.25);
 }
 
 /* MOBILE */
@@ -222,8 +207,8 @@ flex-direction:column;
 text-align:center;
 }
 
-.hero-img{
-margin-top:40px;
+.hero-img img{
+width:220px;
 }
 
 }
@@ -235,10 +220,6 @@ margin-top:40px;
 <body>
 
 <header>
-
-<div class="logo">
-<img src="logo.png">
-</div>
 
 <nav>
 <a href="#home">Home</a>
@@ -252,14 +233,14 @@ margin-top:40px;
 
 <!-- HERO -->
 
-<section class="hero" id="home">
+<section class="hero container" id="home">
 
 <div class="hero-text">
 
 <h1>Telang Seger, Sereh & Jahe</h1>
 
 <p>
-Minuman herbal alami dengan perpaduan bunga telang, sereh, jahe dan madu.
+Minuman herbal alami dengan perpaduan bunga telang, serai, jahe dan madu.
 Segar, sehat, dan cocok diminum kapan saja.
 </p>
 
@@ -275,7 +256,7 @@ Segar, sehat, dan cocok diminum kapan saja.
 
 <!-- MANFAAT -->
 
-<section class="section" id="manfaat">
+<section class="section container" id="manfaat">
 
 <h2>Manfaat Bahan Alami</h2>
 
@@ -307,7 +288,7 @@ Segar, sehat, dan cocok diminum kapan saja.
 
 <!-- PRODUK -->
 
-<section class="section" id="produk">
+<section class="section container" id="produk">
 
 <h2>Produk Kami</h2>
 
@@ -321,13 +302,11 @@ Segar, sehat, dan cocok diminum kapan saja.
 
 <h3>Telserahe 250ml</h3>
 
-<p>Ukuran praktis untuk aktivitas sehari-hari.</p>
-
 <div class="price">Rp 6.000</div>
 
 <a class="btn" target="_blank"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20250ml.%0AJumlah%20:%20...%20botol%0ANama%20:%20%0AAlamat%20:%20">
-Pesan via WhatsApp
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20250ml.%0AJumlah%20:%20...%20botol">
+Pesan
 </a>
 
 </div>
@@ -340,13 +319,11 @@ Pesan via WhatsApp
 
 <h3>Telserahe 500ml</h3>
 
-<p>Ukuran lebih besar untuk dinikmati bersama.</p>
-
 <div class="price">Rp 10.000</div>
 
 <a class="btn" target="_blank"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20500ml.%0AJumlah%20:%20...%20botol%0ANama%20:%20%0AAlamat%20:%20">
-Pesan via WhatsApp
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20500ml.%0AJumlah%20:%20...%20botol">
+Pesan
 </a>
 
 </div>
@@ -357,7 +334,7 @@ Pesan via WhatsApp
 
 <!-- TESTIMONI -->
 
-<section class="section" id="testimoni">
+<section class="section container" id="testimoni">
 
 <h2>Testimoni Pelanggan</h2>
 
@@ -392,7 +369,7 @@ Pesan Sekarang
 
 <!-- KONTAK -->
 
-<section class="section" id="kontak">
+<section class="section container" id="kontak">
 
 <h2>Kontak Kami</h2>
 
@@ -408,7 +385,6 @@ Pesan Sekarang
 
 </footer>
 
-<a href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%20saya%20ingin%20bertanya%20tentang%20produk." 
-class="wa-float">💬</a>
+<a href="https://wa.me/6282182167104" class="wa-float">💬</a>
 
 </body>
