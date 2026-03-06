@@ -1,10 +1,24 @@
-<!DOCTYPE html><html lang="id"><head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Telserahe</title><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"><style>
+
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Telserahe</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
 
 *{
 box-sizing:border-box;
 margin:0;
 padding:0;
+}
+
+h1:first-of-type{
+display:none;
 }
 
 body{
@@ -62,29 +76,33 @@ width:420px;
 height:420px;
 background:url("logo.png") no-repeat center;
 background-size:contain;
-opacity:0.05;
+opacity:0.06;
 left:50%;
 top:50%;
 transform:translate(-50%,-50%);
 }
 
+/* HERO TEXT */
+
 .hero-text{
-max-width:500px;
+max-width:480px;
 z-index:2;
 }
 
 .brand{
-font-size:36px;
+font-size:34px;
 font-weight:700;
 color:#5E2A84;
 margin-bottom:15px;
 }
 
 .hero-text p{
-font-size:18px;
+font-size:17px;
 margin-bottom:25px;
 line-height:1.6;
 }
+
+/* BUTTON */
 
 .btn{
 background:#C9A25D;
@@ -94,13 +112,12 @@ border-radius:30px;
 text-decoration:none;
 font-weight:600;
 display:inline-block;
-margin-bottom:15px;
 }
 
 /* HERO IMAGE */
 
 .hero-img img{
-width:280px;
+width:270px;
 mix-blend-mode:multiply;
 }
 
@@ -112,7 +129,7 @@ text-align:center;
 }
 
 .section h2{
-font-size:30px;
+font-size:28px;
 color:#5E2A84;
 margin-bottom:35px;
 }
@@ -127,36 +144,34 @@ gap:25px;
 
 .feature{
 background:white;
-padding:25px;
+padding:22px;
 border-radius:12px;
 box-shadow:0 5px 18px rgba(0,0,0,0.08);
 }
 
-/* ORDER FORM */
+/* PRODUCTS */
 
-.order-box{
-max-width:420px;
-margin:auto;
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:30px;
+}
+
+.product-card{
 background:white;
 padding:25px;
 border-radius:15px;
 box-shadow:0 8px 22px rgba(0,0,0,0.08);
-text-align:left;
 }
 
-.order-box label{
-font-weight:500;
+.product-img img{
+width:170px;
 }
 
-.order-box input,
-.order-box select,
-.order-box textarea{
-width:100%;
-padding:10px;
-margin-top:5px;
-margin-bottom:15px;
-border-radius:8px;
-border:1px solid #ddd;
+.price{
+font-size:20px;
+font-weight:600;
+margin:10px 0 18px;
 }
 
 /* TESTIMONI */
@@ -169,6 +184,15 @@ box-shadow:0 6px 20px rgba(0,0,0,0.08);
 margin-top:15px;
 }
 
+/* CTA */
+
+.cta{
+background:linear-gradient(135deg,#5E2A84,#7B3FB2);
+color:white;
+padding:70px 20px;
+text-align:center;
+}
+
 /* FOOTER */
 
 footer{
@@ -178,7 +202,7 @@ padding:25px;
 text-align:center;
 }
 
-/* FLOAT SOCIAL */
+/* FLOATING SOCIAL */
 
 .social-float{
 position:fixed;
@@ -221,8 +245,8 @@ text-align:center;
 }
 
 .hero-img img{
-width:220px;
-margin-top:30px;
+width:210px;
+margin-top:25px;
 }
 
 .brand{
@@ -235,74 +259,154 @@ font-size:16px;
 
 }
 
-</style></head><body><header><nav>
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
 <a href="#home">Home</a>
 <a href="#manfaat">Manfaat</a>
 <a href="#produk">Produk</a>
 <a href="#testimoni">Testimoni</a>
 <a href="#kontak">Kontak</a>
-</nav></header><!-- HERO --><section class="hero container" id="home"><div class="hero-text"><div class="brand">
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="container hero">
+
+<div class="hero-text">
+
+<div class="brand">
 Telserahe : Telang Segar, Serai & Jahe
-</div><p>
+</div>
+
+<p>
 Minuman herbal alami dengan perpaduan bunga telang, serai, jahe dan madu.
 Segar, sehat, dan cocok diminum kapan saja.
-</p><a class="btn" href="#produk">Pesan Sekarang</a>
+</p>
 
-</div><div class="hero-img">
+<a class="btn"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0ASaya%20ingin%20memesan%20produk%20Telserahe.">
+Pesan Sekarang
+</a>
+
+</div>
+
+<div class="hero-img">
 <img src="produk.png">
-</div></section><!-- MANFAAT --><section class="section container" id="manfaat"><h2>Manfaat Bahan Alami</h2><div class="features"><div class="feature">
+</div>
+
+</div>
+
+</section>
+
+<!-- MANFAAT -->
+
+<section class="section container" id="manfaat">
+
+<h2>Manfaat Bahan Alami</h2>
+
+<div class="features">
+
+<div class="feature">
 <h3>🌸 Bunga Telang</h3>
 <p>Kaya antioksidan dan baik untuk kesehatan tubuh.</p>
-</div><div class="feature">
+</div>
+
+<div class="feature">
 <h3>🌿 Sereh</h3>
 <p>Menyegarkan tubuh dan membantu detoks alami.</p>
-</div><div class="feature">
+</div>
+
+<div class="feature">
 <h3>🫚 Jahe</h3>
 <p>Menghangatkan tubuh dan meningkatkan imun.</p>
-</div><div class="feature">
+</div>
+
+<div class="feature">
 <h3>🍯 Madu</h3>
 <p>Pemanis alami yang sehat dan menambah energi.</p>
-</div></div></section><!-- ORDER --><section class="section container" id="produk"><h2>Pesan Produk</h2><div class="order-box"><label>Produk</label>
+</div>
 
-<select id="produk_select"><option value="Telserahe 250ml">Telserahe 250ml - Rp 6.000</option><option value="Telserahe 500ml">Telserahe 500ml - Rp 10.000</option></select><label>Jumlah Botol</label>
+</div>
 
-<input type="number" id="jumlah" value="1"><label>Nama</label>
+</section>
 
-<input type="text" id="nama"><label>Alamat</label>
+<!-- PRODUK -->
 
-<textarea id="alamat"></textarea><button onclick="pesanWA()" class="btn" style="width:100%">
-Pesan via WhatsApp
-</button></div></section><!-- TESTIMONI --><section class="section container" id="testimoni"><h2>Testimoni Pelanggan</h2><div class="testimonial">
-⭐️⭐️⭐️⭐️⭐️
-<p>"Minumannya segar banget dan jahenya terasa alami!"</p>
-</div><div class="testimonial">
-⭐️⭐️⭐️⭐️⭐️
-<p>"Warna telangnya cantik dan rasanya unik."</p>
-</div></section><footer id="kontak"><p>WhatsApp : 082182167104</p>
-<p>Instagram : @telserahee_telang</p><p>© 2026 Telserahe</p></footer><!-- FLOAT SOCIAL --><div class="social-float"><a class="wa" href="https://wa.me/6282182167104">💬</a>
+<section class="section container" id="produk">
 
-<a class="ig" href="https://instagram.com/telserahee_telang">📷</a>
+<h2>Produk Kami</h2>
 
-</div><script>
+<div class="products">
 
-function pesanWA(){
+<div class="product-card">
 
-let produk=document.getElementById("produk_select").value;
-let jumlah=document.getElementById("jumlah").value;
-let nama=document.getElementById("nama").value;
-let alamat=document.getElementById("alamat").value;
+<div class="product-img">
+<img src="produk250.png">
+</div>
 
-let pesan=
-"Halo Admin Telserahe 👋%0A%0A"+
-"Saya ingin memesan:%0A%0A"+
-"Produk : "+produk+"%0A"+
-"Jumlah : "+jumlah+" botol%0A%0A"+
-"Nama : "+nama+"%0A"+
-"Alamat : "+alamat+"%0A%0A"+
-"Terima kasih.";
+<h3>Telserahe 250ml</h3>
 
-window.open("https://wa.me/6282182167104?text="+pesan);
+<div class="price">Rp 6.000</div>
 
-}
+<a class="btn"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0A%0ASaya%20ingin%20memesan%20produk%3A%0A%0AProduk%20%3A%20Telserahe%20250ml%0AJumlah%20%3A%20...%20botol%0A%0ANama%20%3A%0AAlamat%20%3A%0A%0ATerima%20kasih.">
+Pesan
+</a>
 
-</script></body>
+</div>
+
+<div class="product-card">
+
+<div class="product-img">
+<img src="produk500.png">
+</div>
+
+<h3>Telserahe 500ml</h3>
+
+<div class="price">Rp 10.000</div>
+
+<a class="btn"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0A%0ASaya%20ingin%20memesan%20produk%3A%0A%0AProduk%20%3A%20Telserahe%20500ml%0AJumlah%20%3A%20...%20botol%0A%0ANama%20%3A%0AAlamat%20%3A%0A%0ATerima%20kasih.">
+Pesan
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Telserahe</p>
+
+</footer>
+
+<!-- FLOAT SOCIAL -->
+
+<div class="social-float">
+
+<a class="wa"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0ASaya%20ingin%20bertanya%20tentang%20produk%20Telserahe.">
+💬
+</a>
+
+<a class="ig"
+href="https://instagram.com/telserahee_telang">
+📷
+</a>
+
+</div>
+
+</body>
