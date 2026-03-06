@@ -10,6 +10,11 @@
 
 <style>
 
+/* HILANGKAN JUDUL REPO GITHUB */
+h1{
+display:none;
+}
+
 *{
 box-sizing:border-box;
 margin:0;
@@ -67,7 +72,7 @@ width:420px;
 height:420px;
 background:url("logo.png") no-repeat center;
 background-size:contain;
-opacity:0.06;
+opacity:0.05;
 left:50%;
 top:50%;
 transform:translate(-50%,-50%);
@@ -173,7 +178,7 @@ border-radius:12px;
 box-shadow:0 6px 20px rgba(0,0,0,0.08);
 }
 
-/* SOSIAL MEDIA */
+/* MEDIA SOSIAL */
 
 .social-links{
 display:flex;
@@ -194,15 +199,6 @@ font-weight:500;
 .ig-btn{background:#E1306C;}
 .tt-btn{background:#000;}
 
-/* CTA */
-
-.cta{
-background:linear-gradient(135deg,#5E2A84,#7B3FB2);
-color:white;
-padding:70px 20px;
-text-align:center;
-}
-
 /* FOOTER */
 
 footer{
@@ -212,7 +208,7 @@ padding:25px;
 text-align:center;
 }
 
-/* FLOAT WA */
+/* FLOATING WHATSAPP */
 
 .wa-float{
 position:fixed;
@@ -287,7 +283,7 @@ Segar, sehat, dan cocok diminum kapan saja.
 </p>
 
 <a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0ASaya%20ingin%20memesan%20produk%20Telserahe.">
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%0ASaya%20ingin%20memesan%20produk.">
 Pesan Sekarang
 </a>
 
@@ -310,22 +306,22 @@ Pesan Sekarang
 <div class="features">
 
 <div class="feature">
-<h3>🌸 Bunga Telang</h3>
+🌸 <b>Bunga Telang</b>
 <p>Kaya antioksidan dan baik untuk kesehatan tubuh.</p>
 </div>
 
 <div class="feature">
-<h3>🌿 Sereh</h3>
+🌿 <b>Sereh</b>
 <p>Menyegarkan tubuh dan membantu detoks alami.</p>
 </div>
 
 <div class="feature">
-<h3>🫚 Jahe</h3>
+🫚 <b>Jahe</b>
 <p>Menghangatkan tubuh dan meningkatkan imun.</p>
 </div>
 
 <div class="feature">
-<h3>🍯 Madu</h3>
+🍯 <b>Madu</b>
 <p>Pemanis alami yang sehat dan menambah energi.</p>
 </div>
 
@@ -352,7 +348,7 @@ Pesan Sekarang
 <div class="price">Rp 6.000</div>
 
 <a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0ASaya%20ingin%20memesan%20Telserahe%20250ml.">
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%0ASaya%20ingin%20memesan%20Telserahe%20250ml.">
 Pesan
 </a>
 
@@ -369,7 +365,7 @@ Pesan
 <div class="price">Rp 10.000</div>
 
 <a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0ASaya%20ingin%20memesan%20Telserahe%20500ml.">
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%0ASaya%20ingin%20memesan%20Telserahe%20500ml.">
 Pesan
 </a>
 
@@ -389,24 +385,24 @@ Pesan
 
 <div class="testi-card">
 ⭐️⭐️⭐️⭐️⭐️  
-"Rasanya segar banget, jahenya terasa tapi tetap ringan."
+"Minumannya segar banget!"
 </div>
 
 <div class="testi-card">
 ⭐️⭐️⭐️⭐️⭐️  
-"Warna telangnya cantik, rasanya unik dan sehat."
+"Rasa jahenya pas dan menyegarkan."
 </div>
 
 <div class="testi-card">
 ⭐️⭐️⭐️⭐️⭐️  
-"Cocok diminum dingin, apalagi siang hari."
+"Warna telangnya cantik dan sehat."
 </div>
 
 </div>
 
 </section>
 
-<!-- SOSIAL MEDIA -->
+<!-- MEDIA SOSIAL -->
 
 <section class="section container" id="kontak">
 
@@ -414,18 +410,15 @@ Pesan
 
 <div class="social-links">
 
-<a class="wa-btn"
-href="https://wa.me/6282182167104">
+<a class="wa-btn" href="https://wa.me/6282182167104">
 WhatsApp
 </a>
 
-<a class="ig-btn"
-href="https://instagram.com/telserahee_telang">
+<a class="ig-btn" href="https://instagram.com/telserahee_telang">
 Instagram
 </a>
 
-<a class="tt-btn"
-href="https://tiktok.com/@telserahe_telang">
+<a class="tt-btn" href="https://tiktok.com/@telserahe_telang">
 TikTok
 </a>
 
@@ -440,7 +433,7 @@ TikTok
 </footer>
 
 <a class="wa-float"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%20Saya%20ingin%20bertanya%20tentang%20produk.">
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%20Saya%20ingin%20bertanya.">
 💬
 </a>
 
