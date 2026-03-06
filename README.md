@@ -10,8 +10,10 @@
 
 <style>
 
-/* sembunyikan judul repo github */
-h1{display:none;}
+/* HILANGKAN JUDUL REPO GITHUB */
+h1{
+display:none;
+}
 
 *{
 box-sizing:border-box;
@@ -63,8 +65,6 @@ position:relative;
 overflow:hidden;
 }
 
-/* logo transparan background */
-
 .hero::before{
 content:"";
 position:absolute;
@@ -77,8 +77,6 @@ left:50%;
 top:50%;
 transform:translate(-50%,-50%);
 }
-
-/* TEXT */
 
 .hero-text{
 max-width:480px;
@@ -108,13 +106,8 @@ font-weight:600;
 display:inline-block;
 }
 
-/* GAMBAR PRODUK MENYATU BACKGROUND */
-
 .hero-img img{
 width:260px;
-background:transparent;
-mix-blend-mode:multiply;
-filter:contrast(1.05);
 }
 
 /* SECTION */
@@ -161,8 +154,13 @@ box-shadow:0 8px 22px rgba(0,0,0,0.08);
 }
 
 .product-img img{
-width:150px;
-mix-blend-mode:multiply;
+width:160px;
+}
+
+.price{
+font-size:20px;
+font-weight:600;
+margin:10px 0 18px;
 }
 
 /* TESTIMONI */
@@ -210,7 +208,7 @@ padding:25px;
 text-align:center;
 }
 
-/* FLOAT WHATSAPP */
+/* FLOATING WHATSAPP */
 
 .wa-float{
 position:fixed;
@@ -285,7 +283,7 @@ Segar, sehat, dan cocok diminum kapan saja.
 </p>
 
 <a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%20Saya%20ingin%20memesan.">
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%0ASaya%20ingin%20memesan%20produk.">
 Pesan Sekarang
 </a>
 
@@ -325,6 +323,52 @@ Pesan Sekarang
 <div class="feature">
 🍯 <b>Madu</b>
 <p>Pemanis alami yang sehat dan menambah energi.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PRODUK -->
+
+<section class="section container" id="produk">
+
+<h2>Produk Kami</h2>
+
+<div class="products">
+
+<div class="product-card">
+
+<div class="product-img">
+<img src="produk250.png">
+</div>
+
+<h3>Telserahe 250ml</h3>
+
+<div class="price">Rp 6.000</div>
+
+<a class="btn"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%0ASaya%20ingin%20memesan%20Telserahe%20250ml.">
+Pesan
+</a>
+
+</div>
+
+<div class="product-card">
+
+<div class="product-img">
+<img src="produk500.png">
+</div>
+
+<h3>Telserahe 500ml</h3>
+
+<div class="price">Rp 10.000</div>
+
+<a class="btn"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%0ASaya%20ingin%20memesan%20Telserahe%20500ml.">
+Pesan
+</a>
+
 </div>
 
 </div>
@@ -389,7 +433,7 @@ TikTok
 </footer>
 
 <a class="wa-float"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋">
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%20Saya%20ingin%20bertanya.">
 💬
 </a>
 
