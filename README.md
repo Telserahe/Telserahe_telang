@@ -1,6 +1,4 @@
 
-<html lang="id">
-
 <head>
 
 <meta charset="UTF-8">
@@ -30,7 +28,7 @@ align-items:center;
 }
 
 .logo img{
-height:60px
+height:55px
 }
 
 nav a{
@@ -122,7 +120,7 @@ transform:translateY(-8px)
 }
 
 .product-img img{
-width:180px;
+width:200px;
 margin-bottom:15px
 }
 
@@ -154,9 +152,34 @@ padding:30px;
 text-align:center
 }
 
+.wa-float{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+font-size:28px;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
 @media(max-width:900px){
-.hero{flex-direction:column;text-align:center}
-.hero-img{margin-top:40px}
+
+.hero{
+flex-direction:column;
+text-align:center
+}
+
+.hero-img{
+margin-top:40px
+}
+
 }
 
 </style>
@@ -168,7 +191,7 @@ text-align:center
 <header>
 
 <div class="logo">
-<img src="logo.png" alt="Logo Telserahe">
+<img src="logo.png">
 </div>
 
 <nav>
@@ -197,7 +220,7 @@ Segar, sehat, dan cocok diminum kapan saja.
 </div>
 
 <div class="hero-img">
-<img src="produk.png" alt="Minuman Telserahe">
+<img src="produk.png">
 </div>
 
 </section>
@@ -250,7 +273,10 @@ Segar, sehat, dan cocok diminum kapan saja.
 
 <div class="price">Rp 6.000</div>
 
-<a class="btn" href="https://wa.me/6282182167104">Pesan</a>
+<a class="btn" target="_blank"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20250ml.%0AJumlah%20:%20...%20botol%0ANama%20:%20%0AAlamat%20:%20">
+Pesan via WhatsApp
+</a>
 
 </div>
 
@@ -266,7 +292,10 @@ Segar, sehat, dan cocok diminum kapan saja.
 
 <div class="price">Rp 10.000</div>
 
-<a class="btn" href="https://wa.me/6282182167104">Pesan</a>
+<a class="btn" target="_blank"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20500ml.%0AJumlah%20:%20...%20botol%0ANama%20:%20%0AAlamat%20:%20">
+Pesan via WhatsApp
+</a>
 
 </div>
 
@@ -298,7 +327,8 @@ Segar, sehat, dan cocok diminum kapan saja.
 
 <br>
 
-<a class="btn" href="https://wa.me/6282182167104">
+<a class="btn"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%20saya%20ingin%20memesan%20produk.">
 Pesan Sekarang
 </a>
 
@@ -322,5 +352,7 @@ Pesan Sekarang
 
 </footer>
 
-</body>
+<a href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%20saya%20ingin%20bertanya%20tentang%20produk." 
+class="wa-float">💬</a>
 
+</body>
