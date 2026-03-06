@@ -3,11 +3,17 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Telserahe | Telang Seger, Sereh & Jahe</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
 
-*{box-sizing:border-box;margin:0;padding:0}
+*{
+box-sizing:border-box;
+margin:0;
+padding:0
+}
 
 body{
 font-family:'Poppins',sans-serif;
@@ -45,19 +51,38 @@ background:linear-gradient(120deg,#F6F1E7,#EFE3FF);
 }
 
 .hero-text{
-max-width:500px
+max-width:500px;
+position:relative;
+}
+
+/* LOGO WATERMARK */
+.hero-text::before{
+content:"";
+position:absolute;
+top:-60px;
+left:-80px;
+width:350px;
+height:350px;
+background:url('logo.png') no-repeat center;
+background-size:contain;
+opacity:0.08;
+z-index:0;
 }
 
 .hero-text h1{
 font-size:48px;
 color:#5E2A84;
-margin-bottom:20px
+margin-bottom:20px;
+position:relative;
+z-index:1;
 }
 
 .hero-text p{
 font-size:18px;
 margin-bottom:30px;
-line-height:1.6
+line-height:1.6;
+position:relative;
+z-index:1;
 }
 
 .btn{
@@ -67,7 +92,9 @@ padding:14px 30px;
 border-radius:30px;
 text-decoration:none;
 font-weight:600;
-display:inline-block
+display:inline-block;
+position:relative;
+z-index:1;
 }
 
 .hero-img img{
@@ -221,135 +248,5 @@ Segar, sehat, dan cocok diminum kapan saja.
 </div>
 
 </section>
-
-<section class="section" id="manfaat">
-
-<h2>Manfaat Bahan Alami</h2>
-
-<div class="features">
-
-<div class="feature">
-<h3>🌸 Bunga Telang</h3>
-<p>Kaya antioksidan dan baik untuk kesehatan tubuh.</p>
-</div>
-
-<div class="feature">
-<h3>🌿 Sereh</h3>
-<p>Menyegarkan tubuh dan membantu detoks alami.</p>
-</div>
-
-<div class="feature">
-<h3>🫚 Jahe</h3>
-<p>Menghangatkan tubuh dan meningkatkan imun.</p>
-</div>
-
-<div class="feature">
-<h3>🍯 Madu</h3>
-<p>Pemanis alami yang sehat dan menambah energi.</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="section" id="produk">
-
-<h2>Produk Kami</h2>
-
-<div class="products">
-
-<div class="product-card">
-
-<div class="product-img">
-<img src="produk250.png">
-</div>
-
-<h3>Telserahe 250ml</h3>
-
-<p>Ukuran praktis untuk aktivitas sehari-hari.</p>
-
-<div class="price">Rp 6.000</div>
-
-<a class="btn" target="_blank"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20250ml.%0AJumlah%20:%20...%20botol%0ANama%20:%20%0AAlamat%20:%20">
-Pesan via WhatsApp
-</a>
-
-</div>
-
-<div class="product-card">
-
-<div class="product-img">
-<img src="produk500.png">
-</div>
-
-<h3>Telserahe 500ml</h3>
-
-<p>Ukuran lebih besar untuk dinikmati bersama.</p>
-
-<div class="price">Rp 10.000</div>
-
-<a class="btn" target="_blank"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20500ml.%0AJumlah%20:%20...%20botol%0ANama%20:%20%0AAlamat%20:%20">
-Pesan via WhatsApp
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section" id="testimoni">
-
-<h2>Testimoni Pelanggan</h2>
-
-<div class="testimonial">
-⭐️⭐️⭐️⭐️⭐️
-<p>"Minumannya segar banget, rasa jahenya pas dan aromanya wangi!"</p>
-</div>
-
-<div class="testimonial">
-⭐️⭐️⭐️⭐️⭐️
-<p>"Unik! Warna telangnya cantik dan rasanya menyehatkan."</p>
-</div>
-
-</section>
-
-<section class="cta">
-
-<h2>Segarkan Harimu dengan Telserahe</h2>
-
-<p>Minuman herbal alami yang sehat dan menyegarkan.</p>
-
-<br>
-
-<a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%20saya%20ingin%20memesan%20produk.">
-Pesan Sekarang
-</a>
-
-</section>
-
-<section class="section" id="kontak">
-
-<h2>Kontak Kami</h2>
-
-<p>WhatsApp : 082182167104</p>
-
-<p>Instagram : @telserahee_telang</p>
-
-<p>Tiktok : @telserahe_telang</p>
-
-</section>
-
-<footer>
-
-<p>© 2026 Telserahe - Telang Seger, Sereh & Jahe</p>
-
-</footer>
-
-<a href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%20saya%20ingin%20bertanya%20tentang%20produk." 
-class="wa-float">💬</a>
 
 </body>
