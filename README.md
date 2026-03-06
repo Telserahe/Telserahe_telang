@@ -1,9 +1,9 @@
 
+
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Telserahe</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -13,13 +13,13 @@
 *{
 box-sizing:border-box;
 margin:0;
-padding:0;
+padding:0
 }
 
 body{
 font-family:'Poppins',sans-serif;
-background:linear-gradient(120deg,#F6F1E7,#EDE4FF);
-color:#333;
+background:#F6F1E7;
+color:#333
 }
 
 /* HEADER */
@@ -27,35 +27,36 @@ color:#333;
 header{
 background:linear-gradient(135deg,#5E2A84,#7B3FB2);
 color:white;
-padding:15px 40px;
+padding:20px 40px;
 display:flex;
 justify-content:space-between;
 align-items:center;
 }
 
 .logo img{
-height:50px;
+height:50px
 }
 
 nav a{
 color:white;
 margin-left:25px;
 text-decoration:none;
-font-weight:500;
+font-weight:500
 }
 
 /* HERO */
 
 .hero{
-min-height:85vh;
+min-height:80vh;
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:80px 10%;
+padding:60px 10%;
+background:linear-gradient(120deg,#F6F1E7,#EFE3FF);
 position:relative;
 }
 
-/* background logo */
+/* LOGO BACKGROUND */
 
 .hero::before{
 content:"";
@@ -64,36 +65,35 @@ width:500px;
 height:500px;
 background:url("logo.png") no-repeat center;
 background-size:contain;
-opacity:0.05;
-left:0;
+opacity:0.06;
+left:50%;
 top:50%;
-transform:translateY(-50%);
+transform:translate(-50%,-50%);
 }
 
-/* TEXT */
+/* HERO TEXT */
 
 .hero-text{
-max-width:550px;
+max-width:500px;
 z-index:1;
 }
 
 .hero-text h1{
-font-size:56px;
+font-size:48px;
 color:#5E2A84;
-margin-bottom:10px;
-font-weight:700;
+margin-bottom:15px
 }
 
 .hero-text h2{
 font-size:26px;
 color:#7B3FB2;
-margin-bottom:25px;
+margin-bottom:20px
 }
 
 .hero-text p{
 font-size:18px;
-margin-bottom:35px;
-line-height:1.6;
+margin-bottom:30px;
+line-height:1.6
 }
 
 /* BUTTON */
@@ -101,59 +101,54 @@ line-height:1.6;
 .btn{
 background:#C9A25D;
 color:white;
-padding:15px 32px;
+padding:14px 30px;
 border-radius:30px;
 text-decoration:none;
 font-weight:600;
-font-size:16px;
+display:inline-block
 }
 
-/* PRODUCT IMAGE */
-
-.hero-img{
-display:flex;
-align-items:flex-end;
-gap:20px;
-}
+/* HERO IMAGE */
 
 .hero-img img{
-width:220px;
+width:320px;
+z-index:1;
 }
 
 /* SECTION */
 
 .section{
 padding:80px 10%;
-text-align:center;
+text-align:center
 }
 
 .section h2{
 font-size:32px;
 color:#5E2A84;
-margin-bottom:40px;
+margin-bottom:40px
 }
 
 /* FEATURES */
 
 .features{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:30px;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px
 }
 
 .feature{
 background:white;
-padding:30px;
+padding:25px;
 border-radius:12px;
-box-shadow:0 6px 20px rgba(0,0,0,0.08);
+box-shadow:0 6px 20px rgba(0,0,0,0.08)
 }
 
-/* PRODUCT CARD */
+/* PRODUCTS */
 
 .products{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:40px;
+gap:40px
 }
 
 .product-card{
@@ -161,16 +156,32 @@ background:white;
 padding:30px;
 border-radius:15px;
 box-shadow:0 10px 25px rgba(0,0,0,0.08);
+transition:0.3s
+}
+
+.product-card:hover{
+transform:translateY(-8px)
 }
 
 .product-img img{
 width:200px;
+margin-bottom:20px
 }
 
 .price{
-font-size:22px;
+font-size:20px;
 font-weight:600;
-margin:10px 0 20px;
+margin:10px 0 20px 0
+}
+
+/* TESTIMONI */
+
+.testimonial{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+margin-top:20px
 }
 
 /* CTA */
@@ -179,32 +190,35 @@ margin:10px 0 20px;
 background:linear-gradient(135deg,#5E2A84,#7B3FB2);
 color:white;
 padding:80px 20px;
-text-align:center;
+text-align:center
 }
+
+/* FOOTER */
 
 footer{
 background:#3E1A5C;
 color:white;
 padding:30px;
-text-align:center;
+text-align:center
 }
 
-/* WA FLOAT */
+/* WHATSAPP FLOAT */
 
-.wa{
+.wa-float{
 position:fixed;
 bottom:25px;
 right:25px;
 background:#25D366;
+color:white;
+font-size:28px;
 width:60px;
 height:60px;
 border-radius:50%;
 display:flex;
 align-items:center;
 justify-content:center;
-font-size:28px;
-color:white;
 text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
 }
 
 /* MOBILE */
@@ -213,15 +227,11 @@ text-decoration:none;
 
 .hero{
 flex-direction:column;
-text-align:center;
+text-align:center
 }
 
 .hero-img{
-margin-top:40px;
-}
-
-.hero-img img{
-width:180px;
+margin-top:40px
 }
 
 }
@@ -247,8 +257,6 @@ width:180px;
 
 </header>
 
-<!-- HERO -->
-
 <section class="hero" id="home">
 
 <div class="hero-text">
@@ -258,105 +266,19 @@ width:180px;
 <h2>Telang Segar, Serai & Jahe</h2>
 
 <p>
-Minuman herbal alami dari bunga telang, serai, jahe dan madu.
+Minuman herbal alami dengan perpaduan bunga telang, serai, jahe dan madu.
 Segar, sehat, dan cocok diminum kapan saja.
 </p>
 
-<a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%20saya%20ingin%20memesan%20produk.">
-Pesan Sekarang
-</a>
+<a class="btn" href="#produk">Pesan Sekarang</a>
 
 </div>
 
 <div class="hero-img">
-
-<img src="produk250.png">
-<img src="produk500.png">
-
+<img src="produk.png">
 </div>
 
 </section>
-
-<!-- MANFAAT -->
-
-<section class="section" id="manfaat">
-
-<h2>Manfaat Bahan Alami</h2>
-
-<div class="features">
-
-<div class="feature">
-<h3>🌸 Bunga Telang</h3>
-<p>Kaya antioksidan untuk kesehatan tubuh.</p>
-</div>
-
-<div class="feature">
-<h3>🌿 Serai</h3>
-<p>Menyegarkan tubuh dan membantu detoks alami.</p>
-</div>
-
-<div class="feature">
-<h3>🫚 Jahe</h3>
-<p>Menghangatkan tubuh dan meningkatkan imun.</p>
-</div>
-
-<div class="feature">
-<h3>🍯 Madu</h3>
-<p>Pemanis alami yang menambah energi.</p>
-</div>
-
-</div>
-
-</section>
-
-<!-- PRODUK -->
-
-<section class="section" id="produk">
-
-<h2>Produk Kami</h2>
-
-<div class="products">
-
-<div class="product-card">
-
-<div class="product-img">
-<img src="produk250.png">
-</div>
-
-<h3>Telserahe 250ml</h3>
-
-<div class="price">Rp 6.000</div>
-
-<a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20250ml.%0AJumlah%20:%20">
-Pesan
-</a>
-
-</div>
-
-<div class="product-card">
-
-<div class="product-img">
-<img src="produk500.png">
-</div>
-
-<h3>Telserahe 500ml</h3>
-
-<div class="price">Rp 10.000</div>
-
-<a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20500ml.%0AJumlah%20:%20">
-Pesan
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- FOOTER -->
 
 <footer>
 
@@ -364,6 +286,6 @@ Pesan
 
 </footer>
 
-<a href="https://wa.me/6282182167104" class="wa">💬</a>
+<a href="https://wa.me/6282182167104" class="wa-float">💬</a>
 
 </body>
