@@ -1,5 +1,4 @@
 
-
 <head>
 
 <meta charset="UTF-8">
@@ -10,6 +9,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
+
+html{
+scroll-behavior:smooth;
+}
 
 h1{display:none;}
 
@@ -283,8 +286,7 @@ Minuman herbal alami dari bunga telang, serai, jahe dan madu.
 Segar, sehat dan cocok diminum kapan saja.
 </p>
 
-<a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%0A%0ASaya%20ingin%20memesan%20minuman%20Telserahe%20dengan%20detail%20berikut:%0A%0ANama%20:%0AAlamat%20:%0AProduk%20:%0AJumlah%20:%0AMetode%20Pembayaran%20:%0A%0ATerima%20kasih.">
+<a class="btn" href="#produk">
 Pesan Sekarang
 </a>
 
@@ -349,7 +351,7 @@ Pesan Sekarang
 <div class="price">Rp 6.000</div>
 
 <a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%0A%0ASaya%20ingin%20memesan:%0AProduk%20:%20Telserahe%20250ml%0AHarga%20:%20Rp%206.000%0A%0AData%20Pembeli:%0ANama%20:%0AAlamat%20:%0AJumlah%20:%0AMetode%20Pembayaran%20:%0A%0ATerima%20kasih.">
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%0ASaya%20ingin%20memesan%20Telserahe%20250ml%0A%0ANama%20:%0AAlamat%20:%0AJumlah%20:%0AMetode%20Pembayaran%20:%0A%0ATerima%20kasih.">
 Pesan
 </a>
 
@@ -366,7 +368,7 @@ Pesan
 <div class="price">Rp 10.000</div>
 
 <a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%0A%0ASaya%20ingin%20memesan:%0AProduk%20:%20Telserahe%20500ml%0AHarga%20:%20Rp%2010.000%0A%0AData%20Pembeli:%0ANama%20:%0AAlamat%20:%0AJumlah%20:%0AMetode%20Pembayaran%20:%0A%0ATerima%20kasih.">
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20👋%0ASaya%20ingin%20memesan%20Telserahe%20500ml%0A%0ANama%20:%0AAlamat%20:%0AJumlah%20:%0AMetode%20Pembayaran%20:%0A%0ATerima%20kasih.">
 Pesan
 </a>
 
