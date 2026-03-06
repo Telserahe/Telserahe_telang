@@ -1,4 +1,5 @@
 
+
 <head>
 
 <meta charset="UTF-8">
@@ -22,7 +23,7 @@ background:#F6F1E7;
 color:#333;
 }
 
-/* SEMBUNYIKAN JUDUL REPOSITORY */
+/* SEMBUNYIKAN JUDUL REPOSITORY GITHUB */
 h1:first-child{
 display:none;
 }
@@ -88,12 +89,11 @@ font-weight:600;
 display:inline-block;
 }
 
-/* GAMBAR PRODUK TRANSPARAN */
+/* GAMBAR PRODUK */
 
 .hero-img img{
 width:340px;
 mix-blend-mode:multiply;
-background:transparent;
 }
 
 /* SECTION */
@@ -237,6 +237,8 @@ margin-top:40px;
 
 </header>
 
+<!-- HERO -->
+
 <section class="hero" id="home">
 
 <div class="hero-text">
@@ -244,7 +246,7 @@ margin-top:40px;
 <h1>Telserahe: Telang Segar, Serai & Jahe</h1>
 
 <p>
-Minuman herbal alami dari bunga telang, serai, jahe dan madu.
+Minuman herbal alami dengan perpaduan bunga telang, serai, jahe dan madu.
 Segar, sehat, dan cocok diminum kapan saja.
 </p>
 
@@ -257,5 +259,143 @@ Segar, sehat, dan cocok diminum kapan saja.
 </div>
 
 </section>
+
+<!-- MANFAAT -->
+
+<section class="section" id="manfaat">
+
+<h2>Manfaat Bahan Alami</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>🌸 Bunga Telang</h3>
+<p>Kaya antioksidan dan baik untuk kesehatan tubuh.</p>
+</div>
+
+<div class="feature">
+<h3>🌿 Serai</h3>
+<p>Menyegarkan tubuh dan membantu detoks alami.</p>
+</div>
+
+<div class="feature">
+<h3>🫚 Jahe</h3>
+<p>Menghangatkan tubuh dan meningkatkan imun.</p>
+</div>
+
+<div class="feature">
+<h3>🍯 Madu</h3>
+<p>Pemanis alami yang sehat dan menambah energi.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PRODUK -->
+
+<section class="section" id="produk">
+
+<h2>Produk Kami</h2>
+
+<div class="products">
+
+<div class="product-card">
+
+<div class="product-img">
+<img src="produk250.png">
+</div>
+
+<h3>Telserahe 250ml</h3>
+
+<p>Ukuran praktis untuk aktivitas sehari-hari.</p>
+
+<div class="price">Rp 6.000</div>
+
+<a class="btn" target="_blank"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20250ml.%0AJumlah%20:%20...%20botol%0ANama%20:%20%0AAlamat%20:%20">
+Pesan via WhatsApp
+</a>
+
+</div>
+
+<div class="product-card">
+
+<div class="product-img">
+<img src="produk500.png">
+</div>
+
+<h3>Telserahe 500ml</h3>
+
+<p>Ukuran lebih besar untuk dinikmati bersama.</p>
+
+<div class="price">Rp 10.000</div>
+
+<a class="btn" target="_blank"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20500ml.%0AJumlah%20:%20...%20botol%0ANama%20:%20%0AAlamat%20:%20">
+Pesan via WhatsApp
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TESTIMONI -->
+
+<section class="section" id="testimoni">
+
+<h2>Testimoni Pelanggan</h2>
+
+<div class="testimonial">
+⭐️⭐️⭐️⭐️⭐️
+<p>"Minumannya segar banget, rasa jahenya pas dan aromanya wangi!"</p>
+</div>
+
+<div class="testimonial">
+⭐️⭐️⭐️⭐️⭐️
+<p>"Unik! Warna telangnya cantik dan rasanya menyehatkan."</p>
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+<h2>Segarkan Harimu dengan Telserahe</h2>
+
+<p>Minuman herbal alami yang sehat dan menyegarkan.</p>
+
+<br>
+
+<a class="btn"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%20saya%20ingin%20memesan%20produk.">
+Pesan Sekarang
+</a>
+
+</section>
+
+<!-- KONTAK -->
+
+<section class="section" id="kontak">
+
+<h2>Kontak Kami</h2>
+
+<p>WhatsApp : 082182167104</p>
+<p>Instagram : @telserahee_telang</p>
+<p>Tiktok : @telserahe_telang</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Telserahe - Telang Segar, Serai & Jahe</p>
+
+</footer>
+
+<a href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%20saya%20ingin%20bertanya%20tentang%20produk." 
+class="wa-float">💬</a>
 
 </body>
