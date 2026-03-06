@@ -1,5 +1,4 @@
 
-
 <head>
 
 <meta charset="UTF-8">
@@ -17,17 +16,11 @@ margin:0;
 padding:0;
 }
 
-h1:first-of-type{
-display:none;
-}
-
 body{
 font-family:'Poppins',sans-serif;
 background:#F6F1E7;
 color:#333;
 }
-
-/* CONTAINER */
 
 .container{
 max-width:1100px;
@@ -67,8 +60,6 @@ position:relative;
 overflow:hidden;
 }
 
-/* LOGO BACKGROUND */
-
 .hero::before{
 content:"";
 position:absolute;
@@ -81,8 +72,6 @@ left:50%;
 top:50%;
 transform:translate(-50%,-50%);
 }
-
-/* HERO TEXT */
 
 .hero-text{
 max-width:480px;
@@ -102,8 +91,6 @@ margin-bottom:25px;
 line-height:1.6;
 }
 
-/* BUTTON */
-
 .btn{
 background:#C9A25D;
 color:white;
@@ -114,11 +101,8 @@ font-weight:600;
 display:inline-block;
 }
 
-/* HERO IMAGE */
-
 .hero-img img{
-width:270px;
-mix-blend-mode:multiply;
+width:260px;
 }
 
 /* SECTION */
@@ -131,7 +115,7 @@ text-align:center;
 .section h2{
 font-size:28px;
 color:#5E2A84;
-margin-bottom:35px;
+margin-bottom:40px;
 }
 
 /* FEATURES */
@@ -149,7 +133,7 @@ border-radius:12px;
 box-shadow:0 5px 18px rgba(0,0,0,0.08);
 }
 
-/* PRODUCTS */
+/* PRODUK */
 
 .products{
 display:grid;
@@ -165,7 +149,7 @@ box-shadow:0 8px 22px rgba(0,0,0,0.08);
 }
 
 .product-img img{
-width:170px;
+width:160px;
 }
 
 .price{
@@ -176,13 +160,39 @@ margin:10px 0 18px;
 
 /* TESTIMONI */
 
-.testimonial{
+.testimoni{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.testi-card{
 background:white;
 padding:25px;
 border-radius:12px;
 box-shadow:0 6px 20px rgba(0,0,0,0.08);
-margin-top:15px;
 }
+
+/* SOSIAL MEDIA */
+
+.social-links{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.social-links a{
+text-decoration:none;
+padding:12px 20px;
+border-radius:25px;
+color:white;
+font-weight:500;
+}
+
+.wa-btn{background:#25D366;}
+.ig-btn{background:#E1306C;}
+.tt-btn{background:#000;}
 
 /* CTA */
 
@@ -202,37 +212,23 @@ padding:25px;
 text-align:center;
 }
 
-/* FLOATING SOCIAL */
+/* FLOAT WA */
 
-.social-float{
+.wa-float{
 position:fixed;
 bottom:20px;
 right:20px;
-display:flex;
-flex-direction:column;
-gap:10px;
-z-index:999;
-}
-
-.social-float a{
+background:#25D366;
 width:55px;
 height:55px;
 border-radius:50%;
 display:flex;
 align-items:center;
 justify-content:center;
-font-size:22px;
+font-size:25px;
 color:white;
 text-decoration:none;
-box-shadow:0 5px 15px rgba(0,0,0,0.25);
-}
-
-.wa{
-background:#25D366;
-}
-
-.ig{
-background:#E1306C;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
 }
 
 /* MOBILE */
@@ -245,16 +241,12 @@ text-align:center;
 }
 
 .hero-img img{
-width:210px;
 margin-top:25px;
+width:200px;
 }
 
 .brand{
 font-size:26px;
-}
-
-.hero-text p{
-font-size:16px;
 }
 
 }
@@ -279,7 +271,7 @@ font-size:16px;
 
 <!-- HERO -->
 
-<section class="hero">
+<section class="hero" id="home">
 
 <div class="container hero">
 
@@ -360,7 +352,7 @@ Pesan Sekarang
 <div class="price">Rp 6.000</div>
 
 <a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0A%0ASaya%20ingin%20memesan%20produk%3A%0A%0AProduk%20%3A%20Telserahe%20250ml%0AJumlah%20%3A%20...%20botol%0A%0ANama%20%3A%0AAlamat%20%3A%0A%0ATerima%20kasih.">
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0ASaya%20ingin%20memesan%20Telserahe%20250ml.">
 Pesan
 </a>
 
@@ -377,25 +369,65 @@ Pesan
 <div class="price">Rp 10.000</div>
 
 <a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0A%0ASaya%20ingin%20memesan%20produk%3A%0A%0AProduk%20%3A%20Telserahe%20500ml%0AJumlah%20%3A%20...%20botol%0A%0ANama%20%3A%0AAlamat%20%3A%0A%0ATerima%20kasih.">
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0ASaya%20ingin%20memesan%20Telserahe%20500ml.">
 Pesan
 </a>
-id="testimoni"><h2>Testimoni Pelanggan</h2><div class="testimonial">
-⭐️⭐️⭐️⭐️⭐️
-<p>"Minumannya segar banget, rasa jahenya pas dan aromanya wangi!"</p>
-</div><div class="testimonial">
-⭐️⭐️⭐️⭐️⭐️
-<p>"Unik! Warna telangnya cantik dan rasanya menyehatkan."</p>
-</div></section><section class="cta">
-<h2>Segarkan Harimu dengan Telserahe</h2>
-<p>Minuman herbal alami yang sehat dan menyegarkan.</p>
-<br>
-<a class="btn" href="https://wa.me/628000000000">Pesan Sekarang</a>
-</section><section class="section" id="kontak">
-<h2>Kontak Kami</h2>
-<p>WhatsApp : 08xxxxxxxxxx</p>
-<p>Instagram : @telserahe</p>
-</section><footer>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- TESTIMONI -->
+
+<section class="section container" id="testimoni">
+
+<h2>Testimoni Pelanggan</h2>
+
+<div class="testimoni">
+
+<div class="testi-card">
+⭐️⭐️⭐️⭐️⭐️  
+"Rasanya segar banget, jahenya terasa tapi tetap ringan."
+</div>
+
+<div class="testi-card">
+⭐️⭐️⭐️⭐️⭐️  
+"Warna telangnya cantik, rasanya unik dan sehat."
+</div>
+
+<div class="testi-card">
+⭐️⭐️⭐️⭐️⭐️  
+"Cocok diminum dingin, apalagi siang hari."
+</div>
+
+</div>
+
+</section>
+
+<!-- SOSIAL MEDIA -->
+
+<section class="section container" id="kontak">
+
+<h2>Media Sosial</h2>
+
+<div class="social-links">
+
+<a class="wa-btn"
+href="https://wa.me/6282182167104">
+WhatsApp
+</a>
+
+<a class="ig-btn"
+href="https://instagram.com/telserahee_telang">
+Instagram
+</a>
+
+<a class="tt-btn"
+href="https://tiktok.com/@telserahe_telang">
+TikTok
+</a>
 
 </div>
 
@@ -407,20 +439,9 @@ id="testimoni"><h2>Testimoni Pelanggan</h2><div class="testimonial">
 
 </footer>
 
-<!-- FLOAT SOCIAL -->
-
-<div class="social-float">
-
-<a class="wa"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0ASaya%20ingin%20bertanya%20tentang%20produk%20Telserahe.">
+<a class="wa-float"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%20Saya%20ingin%20bertanya%20tentang%20produk.">
 💬
 </a>
-
-<a class="ig"
-href="https://instagram.com/telserahee_telang">
-🅾
-</a>
-
-</div>
 
 </body>
