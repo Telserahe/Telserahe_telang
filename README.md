@@ -380,7 +380,13 @@ Pesan
 href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0A%0ASaya%20ingin%20memesan%20produk%3A%0A%0AProduk%20%3A%20Telserahe%20500ml%0AJumlah%20%3A%20...%20botol%0A%0ANama%20%3A%0AAlamat%20%3A%0A%0ATerima%20kasih.">
 Pesan
 </a>
-
+<br>
+<a class="btn" href="https://wa.me/628000000000">Pesan Sekarang</a>
+</section><section class="section" id="kontak">
+<h2>Kontak Kami</h2>
+<p>WhatsApp : 08xxxxxxxxxx</p>
+<p>Instagram : @telserahe</p>
+</section><footer>
 </div>
 
 </div>
@@ -404,7 +410,7 @@ href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe%20%F0%9F%91%8B%0
 
 <a class="ig"
 href="https://instagram.com/telserahee_telang">
-📷
+🅾
 </a>
 
 </div>
