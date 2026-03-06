@@ -16,7 +16,7 @@ margin:0;
 padding:0;
 }
 
-/* HILANGKAN JUDUL REPOSITORY GITHUB */
+/* sembunyikan judul repo github */
 
 h1:first-of-type{
 display:none;
@@ -28,18 +28,19 @@ background:#F6F1E7;
 color:#333;
 }
 
-/* CONTAINER AGAR TIDAK TERLALU LEBAR */
+/* container */
 
 .container{
 max-width:1100px;
 margin:auto;
+padding:0 20px;
 }
 
 /* HEADER */
 
 header{
 background:linear-gradient(135deg,#5E2A84,#7B3FB2);
-padding:15px 20px;
+padding:15px 0;
 }
 
 nav{
@@ -61,46 +62,97 @@ display:flex;
 align-items:center;
 justify-content:space-between;
 gap:40px;
-padding:70px 20px;
+padding:70px 0;
 background:linear-gradient(120deg,#F6F1E7,#EFE3FF);
+position:relative;
+overflow:hidden;
 }
 
+/* background logo */
+
+.hero::before{
+content:"";
+position:absolute;
+width:420px;
+height:420px;
+background:url("logo.png") no-repeat center;
+background-size:contain;
+opacity:0.05;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+}
+
+/* TEXT */
+
 .hero-text{
-max-width:450px;
+max-width:480px;
+position:relative;
+z-index:2;
 }
 
 .hero-text h1{
-font-size:40px;
+font-size:34px;
 color:#5E2A84;
 margin-bottom:15px;
 }
 
 .hero-text p{
 font-size:17px;
-margin-bottom:30px;
+margin-bottom:25px;
 line-height:1.6;
 }
+
+/* BUTTON */
 
 .btn{
 background:#C9A25D;
 color:white;
-padding:13px 28px;
+padding:12px 26px;
 border-radius:30px;
 text-decoration:none;
 font-weight:600;
+display:inline-block;
 }
 
-/* GAMBAR PRODUK */
+/* SOCIAL */
+
+.social{
+margin-top:20px;
+display:flex;
+gap:12px;
+flex-wrap:wrap;
+}
+
+.social a{
+text-decoration:none;
+padding:10px 16px;
+border-radius:25px;
+font-size:14px;
+color:white;
+}
+
+.ig{
+background:#E1306C;
+}
+
+.wa{
+background:#25D366;
+}
+
+/* IMAGE */
 
 .hero-img img{
-width:280px;
-mix-blend-mode:multiply; /* supaya transparan menyatu */
+width:270px;
+mix-blend-mode:multiply;
+position:relative;
+z-index:2;
 }
 
 /* SECTION */
 
 .section{
-padding:70px 20px;
+padding:70px 0;
 text-align:center;
 }
 
@@ -205,10 +257,24 @@ box-shadow:0 5px 15px rgba(0,0,0,0.25);
 .hero{
 flex-direction:column;
 text-align:center;
+padding:50px 0;
 }
 
 .hero-img img{
-width:220px;
+width:210px;
+margin-top:25px;
+}
+
+.hero-text h1{
+font-size:26px;
+}
+
+.hero-text p{
+font-size:16px;
+}
+
+.social{
+justify-content:center;
 }
 
 }
@@ -233,7 +299,9 @@ width:220px;
 
 <!-- HERO -->
 
-<section class="hero container" id="home">
+<section class="hero">
+
+<div class="container hero">
 
 <div class="hero-text">
 
@@ -246,10 +314,26 @@ Segar, sehat, dan cocok diminum kapan saja.
 
 <a class="btn" href="#produk">Pesan Sekarang</a>
 
+<div class="social">
+
+<a class="wa"
+href="https://wa.me/6282182167104">
+WhatsApp
+</a>
+
+<a class="ig"
+href="https://instagram.com/telserahee_telang">
+Instagram
+</a>
+
+</div>
+
 </div>
 
 <div class="hero-img">
 <img src="produk.png">
+</div>
+
 </div>
 
 </section>
@@ -304,8 +388,8 @@ Segar, sehat, dan cocok diminum kapan saja.
 
 <div class="price">Rp 6.000</div>
 
-<a class="btn" target="_blank"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20250ml.%0AJumlah%20:%20...%20botol">
+<a class="btn"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20250ml.%0AJumlah%20:%20">
 Pesan
 </a>
 
@@ -321,8 +405,8 @@ Pesan
 
 <div class="price">Rp 10.000</div>
 
-<a class="btn" target="_blank"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20Telserahe%20500ml.%0AJumlah%20:%20...%20botol">
+<a class="btn"
+href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%0ASaya%20ingin%20memesan%20500ml.%0AJumlah%20:%20">
 Pesan
 </a>
 
@@ -361,7 +445,7 @@ Pesan
 <br>
 
 <a class="btn"
-href="https://wa.me/6282182167104?text=Halo%20Admin%20Telserahe,%20saya%20ingin%20memesan%20produk.">
+href="https://wa.me/6282182167104">
 Pesan Sekarang
 </a>
 
