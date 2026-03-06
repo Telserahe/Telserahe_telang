@@ -261,7 +261,7 @@ Segar, sehat, dan cocok diminum kapan saja.
 <div class="product-card">
 
 <div class="product-img">
-<img src="produk.png">
+<img src="produk250.png">
 </div>
 
 <h3>Telserahe 250ml</h3>
@@ -280,7 +280,7 @@ Pesan via WhatsApp
 <div class="product-card">
 
 <div class="product-img">
-<img src="produk.png">
+<img src="produk500.png">
 </div>
 
 <h3>Telserahe 500ml</h3>
