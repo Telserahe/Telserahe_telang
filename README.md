@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="id">
 
 <head>
@@ -324,4 +324,3 @@ Pesan Sekarang
 
 </body>
 
-</html>
